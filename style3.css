@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	background-image: url("media/flagback.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+nav{
+	margin: 20px;
+}
+nav a{
+ font-size: 20px;
+ font-weight: bold;
+ color: blue;
+ background-color: white;
+
+}
+
+nav>a:hover{
+	background-color: pink;
+}
+
+
+#smile{
+	width: 50px;
+	height: 50px;
+	float: left;
+	transition: transform 1s;
+	float: right;
+	border-radius: 50% !important;
+}
+
+#smile:hover{
+	transform: rotate(1080deg);
+}
+
+
+
+.container{
+	display: flex;
+	background-color: DodgerBlue;
+	flex-wrap: wrap;/*flex-flow: column wrap*/
+	justify-content: center;
+	align-content: center;
+	padding: 20px;
+	margin: 10px;
+}
+h1{
+	font-family: fantasy;
+	text-align: center;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	-moz-box-shadow:4px 4px 5px grey;/*morzilla support*/
+	box-shadow: 4px 4px 5px grey;
+	margin-top: 10px;
+	background-color: white;
+}
+
+img{
+	max-width: 450px;
+	height: 300px;
+	margin: 10px;
+	border-radius: 20px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+div.image{
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(211,211,211,0.9),0 6px 20px 0 rgba(211,211,211,0.19);
+  margin: 25px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+div.caption{
+	text-align: center;
+	padding: 10px 20px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+

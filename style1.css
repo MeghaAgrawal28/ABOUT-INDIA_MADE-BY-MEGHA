@@ -1,0 +1,169 @@
+body{
+	background-image: url("media/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+header{
+	background-image: url("media/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	border: 5px solid black;animation-name: example;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+
+@keyframes example{
+	0% {background-image: url("media/header1.jpg"); }
+	50%{background-image: url("media/header2.jpg");}
+	100%{background-image:url("media/header3.jpg");}
+}
+
+
+
+.head{
+	background-color: rgb(183, 72, 72);
+	color: black;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	border: 5px solid transparent;
+	border-image: url("media/boder2.png") 20 round;
+	border-image-repeat: repeat;
+	font-family: 'Times new Roman';
+}
+
+.wel{
+	width: 150px;
+	height: 80px;
+	float: left;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+
+}
+
+nav a{
+ font-size: 20px;
+ font-weight: bold;
+ color: blue;
+ background-color: white;
+}
+
+nav>a:hover{
+	background-color: pink;
+}
+
+section{
+	border: 15px solid transparent;
+	padding: 10px;
+    border-image: url("media/boder3.jpg") 30 round;
+	border-image-repeat: repeat;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+
+}
+.para{
+text-shadow: 0 0 3px yellow;
+}
+
+iframe{
+display: flex;
+flex-wrap: wrap;/*flex-flow: column wrap*/
+justify-content: center;
+align-content: center;
+padding: 20px;
+margin: 0 auto;
+border: hidden;
+}
+
+article{
+	border: 15px solid transparent;
+	padding: 10px;
+	border-image: url("media/boder4.gif") 30 round;
+	border-image-repeat: repeat;
+}
+
+article>h2{
+	font-family: 'Lobster', cursive;
+	color: blue;
+	text-shadow: -1px 0 black, 0 1px black,1px 0 black,0 -1px black;
+	
+}
+#p2{
+      font-family: 'Dancing Script', cursive;
+     line-height: 30px;
+     font-size: 15px;
+     font-weight: bold;
+     color: Tomato;
+
+}
+
+
+#p3{
+
+text-align: center;
+font-family: 'Pacifico', cursive;
+text-decoration: underline black;
+text-underline-position: under;
+font-weight: bolder;
+color: red;
+
+}
+
+#Albert{
+	text-align: right;
+}
+
+figcaption{
+	font-weight: bold;
+	color: rgb(150, 80, 44);
+}
+
+aside{
+
+	float: right;
+	padding-left: 15px;
+	margin-left: 15px;
+	padding: 15px;
+   }
+
+aside>img{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+footer{
+	border: 5px solid transparent;
+	padding: 10px;
+	border-image: url("media/boder2.png") 20 round;
+	border-image-repeat: repeat;
+	background-width: 2px;
+
+}
+
+footer>p{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer>a{
+	color: brown;
+	background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+footer>a:hover{
+	background-color: yellow;
+}
